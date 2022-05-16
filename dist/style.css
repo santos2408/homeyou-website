@@ -1,0 +1,133 @@
+:root {
+  --header-height: 10rem;
+  --first-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 47%);
+  --white-color: hsl(0, 0%, 98%);
+  --body-font: "Montserrat", sans-serif;
+  --biggest-font-size: 2.4rem;
+  --medium-font-size: 1.4rem;
+  --normal-font-size: 1.2rem;
+  --semibold-font-weight: 600;
+  --medium-font-weight: 500;
+  --normal-font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --high-font-size: 3.2rem;
+    --semi-font-size: 2.8rem;
+    --medium-font-size: 1.8rem;
+    --normal-font-size: 1.6rem;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--body-font);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--first-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1300px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .logo__image {
+  width: 15rem;
+}
+.nav .menu__toggle {
+  font-size: 3.2rem;
+  cursor: pointer;
+}
+.nav .menu {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  padding: 8rem 0 5rem 0;
+  background-color: var(--first-color);
+  text-align: center;
+  box-shadow: 0 8px 8px hsla(0deg, 0%, 0%, 0.1);
+  border-radius: 0 0 2rem 2rem;
+  transition: 0.3s;
+}
+.nav .menu__close, .nav .menu__link, .nav .menu__list-icons {
+  color: var(--white-color);
+}
+.nav .menu__close {
+  position: absolute;
+  top: 3rem;
+  right: 1.5rem;
+  font-size: 3.2rem;
+  cursor: pointer;
+}
+.nav .menu__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  font-size: var(--medium-font-size);
+  font-weight: var(--medium-font-weight);
+}
+.nav .menu__list-icons {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+.nav .menu__list-icons .menu__item {
+  cursor: pointer;
+}
+
+.menu.show-menu {
+  top: 0;
+}/*# sourceMappingURL=style.css.map */

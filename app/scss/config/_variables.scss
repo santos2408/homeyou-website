@@ -1,0 +1,26 @@
+:root {
+  --header-height: 10rem;
+
+  --first-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 47%);
+  --white-color: hsl(0, 0%, 98%);
+
+  --body-font: 'Montserrat', sans-serif;
+  --biggest-font-size: 2.4rem;
+  --medium-font-size: 1.4rem;
+  --normal-font-size: 1.2rem;
+
+  --semibold-font-weight: 600;
+  --medium-font-weight: 500;
+  --normal-font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --high-font-size: 3.2rem;
+    --semi-font-size: 2.8rem;
+    --medium-font-size: 1.8rem;
+    --normal-font-size: 1.6rem;
+  }
+}
