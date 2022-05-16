@@ -20,10 +20,6 @@
   <img src="https://img.shields.io/github/stars/santos2408/digital-agency-website?color=5454D4&label=Stars" alt="Stars">
 </p>
 
-<p align="center">
-  <img alt="" src=".github/logo-plane.svg" width="10%">
-</p>
-
 <br>
 
 <p align="center">
