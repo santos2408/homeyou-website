@@ -44,7 +44,7 @@ Em construção, mobile first.
 
 ## 🎨 Inspiração:
 
-Figma: https://www.figma.com/community/file/1058842196634115002
+Comunidade: [Codelândia](https://discord.gg/DvpRxMWW)
 
 ## :memo: Licença
 
@@ -52,4 +52,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./.github/LICENS
 
 ---
 
-Feito com ♥ by Roger Santos
+Feito por Roger Santos
