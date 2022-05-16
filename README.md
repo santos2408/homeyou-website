@@ -22,10 +22,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="" src=".github/preview-desktop.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
