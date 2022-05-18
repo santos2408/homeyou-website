@@ -20,9 +20,18 @@ menuList.addEventListener('click', () => {
   menu.classList.remove('show-menu')
 })
 
+// close nav bar when window out is clicked
+window.addEventListener('click', event => {
+  const clickedElement = event.target
+  
+  if (Array.from(clickedElement.classList).includes('show-menu')) {
+    menu.classList.remove('show-menu')
+  }
+
+})
+
 
 // stricky menu with scrolling
-
 const scrollHeader = () => {
   const header = document.querySelector('[data-js="header"]')
   const nav = document.querySelector('[data-js="nav"]')
