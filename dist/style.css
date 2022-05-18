@@ -238,6 +238,10 @@ img {
   gap: 2rem;
 }
 
+.budget {
+  margin-bottom: 4rem;
+}
+
 .budget__data {
   text-align: center;
 }
@@ -258,4 +262,23 @@ img {
   font-weight: var(--medium-font-weight);
   border: 2px solid var(--first-color);
   padding: 1rem 0;
+}
+
+.footer__container {
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3.2rem;
+}
+.footer__container .footer__title {
+  font-size: var(--medium-font-size);
+  font-weight: var(--semibold-font-weight);
+  margin-bottom: 0.6rem;
+}
+.footer__container .footer__item {
+  font-size: var(--medium-font-size);
+}
+.footer__container .footer__item + .footer__item {
+  margin-top: 0.5rem;
+}
+.footer__container .footer__informations {
+  justify-self: end;
 }/*# sourceMappingURL=style.css.map */

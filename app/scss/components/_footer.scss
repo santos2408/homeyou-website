@@ -1,0 +1,22 @@
+.footer__container {
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3.2rem;
+
+  .footer__title {
+    font-size: var(--medium-font-size);
+    font-weight: var(--semibold-font-weight);
+    margin-bottom: .6rem;
+  }
+
+  .footer__item {
+    font-size: var(--medium-font-size);
+  }
+
+  .footer__item + .footer__item {
+    margin-top: .5rem;
+  }
+  
+  .footer__informations {
+    justify-self: end;
+  }
+}
