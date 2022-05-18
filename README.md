@@ -33,8 +33,8 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 ## 🚧 Projeto:
 
 Em construção:
-  <p>[X] - Mobile</p>
-  <p>[ ] - Desktop</p>
+- [ x ] - Mobile 
+- [   ] - Desktop
 
 ## 🎨 Inspiração:
 
