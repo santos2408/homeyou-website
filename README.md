@@ -34,7 +34,6 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 Em construção:
 - [ x ] - Mobile 
-- [...] - Desktop
 
 ## 🎨 Inspiração:
 
