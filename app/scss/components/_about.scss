@@ -1,0 +1,32 @@
+.about {
+  margin-bottom: 4rem;
+}
+
+.about__image {
+  display: none;
+}
+
+.about__data {
+  .about__data-description {
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: 1.6rem;
+    margin-bottom: 1.6rem;
+  
+    .about__title {
+      font-size: var(--biggest-font-size);
+      font-weight: var(--semibold-font-weight);
+      margin-bottom: 1.6rem;
+    }
+  
+    .about__paragraph {
+      font-size: var(--medium-font-size);
+      line-height: 2rem;
+    }
+  }
+
+  .about__link {
+    display: block;
+    text-align: center;
+  }
+}

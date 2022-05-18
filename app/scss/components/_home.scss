@@ -23,8 +23,7 @@
     align-items: center;
     column-gap: 2rem;
 
-    .home__button,
-    .home__link {
+    .home__button{
       font-size: var(--normal-font-size);
       font-weight: var(--medium-font-weight);
     }
@@ -34,11 +33,6 @@
       padding: 1rem 2rem;
       background-color: var(--first-color);
       color: var(--white-color);
-    }
-
-    .home__link {
-      color: var(--first-color);
-      text-decoration: underline;
     }
   }
 

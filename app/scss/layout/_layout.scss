@@ -3,10 +3,22 @@
   margin-inline: 1.5rem;
 }
 
+// animaçao scroll reveal
+// .main {
+//   overflow: hidden;
+// }
+
 .grid {
   display: grid;
 }
 
 .flex {
   display: flex;
+}
+
+.link {
+  font-size: var(--normal-font-size);
+  font-weight: var(--medium-font-weight);
+  color: var(--first-color);
+  text-decoration: underline;
 }
