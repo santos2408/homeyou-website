@@ -217,6 +217,7 @@ img {
 .gallery {
   background-color: var(--grey-color);
   padding: 4rem 0;
+  margin-bottom: 4rem;
 }
 .gallery .gallery__data {
   text-align: center;
@@ -231,4 +232,30 @@ img {
   line-height: 2rem;
   color: var(--text-color);
   margin-bottom: 3.2rem;
+}
+.gallery .gallery__images {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.budget__data {
+  text-align: center;
+}
+.budget__data .budget__title {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--semibold-font-weight);
+  margin-bottom: 2.4rem;
+}
+.budget__data .budget__paragraph {
+  font-size: var(--medium-font-size);
+  line-height: 2rem;
+  color: var(--text-color);
+  margin-bottom: 3.2rem;
+}
+.budget__data .budget__button {
+  display: block;
+  font-size: var(--medium-font-size);
+  font-weight: var(--medium-font-weight);
+  border: 2px solid var(--first-color);
+  padding: 1rem 0;
 }/*# sourceMappingURL=style.css.map */
