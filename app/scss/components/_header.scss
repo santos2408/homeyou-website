@@ -6,6 +6,10 @@
   z-index: 100;
 }
 
+.scroll-header {
+  background-color: var(--white-color);
+}
+
 .nav {
   height: var(--header-height);
   display: flex;
@@ -67,6 +71,10 @@
       }
     }
   }
+}
+
+.scroll-nav {
+  height: 8rem;
 }
 
 .menu.show-menu {

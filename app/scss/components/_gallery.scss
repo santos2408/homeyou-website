@@ -1,0 +1,21 @@
+.gallery {
+  background-color: var(--grey-color);
+  padding: 4rem 0;
+  
+  .gallery__data {
+    text-align: center;
+
+    .gallery__title {
+      font-size: var(--biggest-font-size);
+      color: var(--first-color);
+      margin-bottom: 1.6rem;
+    }
+
+    .gallery__paragraph {
+      font-size: var(--medium-font-size);
+      line-height: 2rem;
+      color: var(--text-color);
+      margin-bottom: 3.2rem;
+    }
+  }
+}
