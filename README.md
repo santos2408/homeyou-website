@@ -32,7 +32,9 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto:
 
-Em construção, mobile first.
+Em construção:
+  [X] - Mobile
+  [ ] - Desktop
 
 ## 🎨 Inspiração:
 
