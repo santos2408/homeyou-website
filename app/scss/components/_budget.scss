@@ -19,10 +19,10 @@
   }
 
   .budget__button {
-    display: block;
+    display: inline-block;
     font-size: var(--medium-font-size);
     font-weight: var(--medium-font-weight);
     border: 2px solid var(--first-color);
-    padding: 1rem 0;
+    padding: 1.2rem 3.2rem;
   }
 }

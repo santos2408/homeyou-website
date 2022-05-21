@@ -22,6 +22,24 @@
 
   .gallery__images {
     grid-template-columns: 1fr;
+    justify-items: center;
     gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .gallery {
+    .gallery__paragraph {
+      max-width: 50rem;
+      margin-inline: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .gallery {
+    .gallery__images {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 }

@@ -23,20 +23,51 @@
     align-items: center;
     column-gap: 2rem;
 
-    .home__button{
-      font-size: var(--normal-font-size);
-      font-weight: var(--medium-font-weight);
-    }
-
     .home__button {
       display: inline-block;
       padding: 1rem 2rem;
-      background-color: var(--first-color);
+      font-size: var(--normal-font-size);
+      font-weight: var(--medium-font-weight);
       color: var(--white-color);
+      background-color: var(--first-color);
+      
     }
   }
 
   .home__image {
     display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home {
+
+    .home__title {
+      margin-bottom: 1.4rem;
+    }
+  
+    .home__paragraph {
+      margin-bottom: 2.2rem;
+    }
+
+    .home__buttons {
+      flex-direction: column;
+      row-gap: 1.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .home {
+    .home__title,
+    .home__paragraph {
+      max-width: 53rem;
+      text-align: center;
+      margin-inline: auto;
+    }
+
+    .home__buttons {
+      justify-content: center;
+    }
   }
 }
