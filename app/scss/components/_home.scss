@@ -3,7 +3,10 @@
   margin-bottom: 4rem;
   padding: 4rem 0;
   background-color: var(--grey-color);
-  grid-template-columns: 1fr;
+  
+  .home__container{
+    grid-template-columns: 1fr;
+  }
 
   .home__title {
     font-size: var(--biggest-font-size);
@@ -68,6 +71,31 @@
 
     .home__buttons {
       justify-content: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home {
+    padding: 0;
+
+    .home__container {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+
+    .home__image {
+      display: block;
+    }
+
+    .home__title,
+    .home__paragraph{
+      text-align: left;
+      margin-inline: 0;
+    }
+
+    .home__buttons {
+      justify-content: start;
     }
   }
 }
