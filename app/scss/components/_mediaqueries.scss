@@ -1,0 +1,38 @@
+@media screen and (max-width: 320px) {
+  .home {
+    .home__buttons {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1.5rem;
+    }
+  }
+
+  .footer__container {
+    row-gap: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .home {
+    .home__title,
+    .home__paragraph {
+      max-width: 50rem;
+      text-align: center;
+      margin-inline: auto;
+    }
+
+    .home__buttons {
+      justify-content: center;
+    }
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 3.2rem;
+    
+    .footer__informations {
+      justify-self: center;
+    }
+  }
+}
