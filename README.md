@@ -32,8 +32,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto:
 
-Em construção:
-- [ x ] - Mobile 
+Link do Projeto: [Homeyou Website](https://rogersanttos-homeyou.netlify.app)q
 
 ## 🎨 Inspiração:
 
