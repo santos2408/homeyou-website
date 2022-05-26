@@ -32,7 +32,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto:
 
-Link do Projeto: [Homeyou Website](https://rogersanttos-homeyou.netlify.app)q
+Link do Projeto: [Homeyou Website](https://rogersanttos-homeyou.netlify.app)
 
 ## 🎨 Inspiração:
 
