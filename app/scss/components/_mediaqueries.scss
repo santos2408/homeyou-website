@@ -36,3 +36,57 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .menu__toggle {
+    display: none;
+  }
+
+  .menu {
+    // position: fixed;
+    // top: -100%;
+    // left: 0;
+    // width: 100%;
+    // padding: 8rem 0 5rem 0;
+    // background-color: var(--first-color);
+    // text-align: center;
+    // box-shadow: 0 8px 8px hsla(0, 0%, 0%, .1);
+    // border-radius: 0 0 2rem 2rem;
+    // transition: .3s;
+
+    &__close,
+    &__link,
+    &__list-icons {
+      // color: var(--grey-color);
+    }
+
+    &__close,
+    &__ {
+      display: none;
+    }
+
+    &__list {
+      display: flex;
+      column-gap: 4.8rem;
+
+      &-icons {
+        display: flex;
+        column-gap: 3.2rem;
+      }
+    }
+
+
+      .menu__item {
+        font-size: var(--medium-font-size);
+        font-weight: var(--medium-font-weight);
+      }        
+
+      &-icons {
+        // display: flex;
+        // justify-content: center;
+        // column-gap: 2rem;
+        // font-size: 2rem;
+        // margin-top: 1.5rem;
+      }
+    }
+  }
