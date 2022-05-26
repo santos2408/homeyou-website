@@ -34,8 +34,8 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 Link do Projeto: [Homeyou Website](https://rogersanttos-homeyou.netlify.app)
 
-:heavy_check_mark: Mobile
-:construction: Desktop
+<p>:heavy_check_mark: Mobile</p>
+<p>:construction: Desktop</p>
 
 ## 🎨 Inspiração:
 
