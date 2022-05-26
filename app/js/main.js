@@ -36,7 +36,7 @@ const scrollHeader = () => {
   const header = document.querySelector('[data-js="header"]')
   const nav = document.querySelector('[data-js="nav"]')
 
-  if (window.scrollY >= 25) {
+  if (window.scrollY >= 60) {
     header.classList.add('scroll-header')
     nav.classList.add('scroll-nav')
   } else {
