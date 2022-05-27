@@ -26,6 +26,13 @@
     }
   }
 
+  .gallery {  
+    .gallery__images {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+  }
+
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
